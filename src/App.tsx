@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import './App.css';
+import './Appp.css';
 import {Todolist} from './Todolist';
 import { v1 } from 'uuid';
 
@@ -58,7 +58,9 @@ function App() {
                       removeTask={removeTask}
                       changeFilter={changeFilter}
                       addTask={addTask}
-                      changeTaskStatus={changeTaskStatus}/>
+                      changeTaskStatus={changeTaskStatus}
+                      filter={filter}
+            />
         </div>
     );
 }
